@@ -16,3 +16,6 @@ class TestBasics(unittest.TestCase):
 	def test_exponent(self):
 		result = rpn.calculate('2 2 ^')
 		self.assertEqual(4, result)
+
+if __name__ == '__main__':
+    unittest.main()
