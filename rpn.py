@@ -1,11 +1,13 @@
 #!/usr/bin/env python3
 import operator
+import readline
 OPERATORS = {
 	'+': operator.add,
 	'-': operator.sub,
 	'*': operator.mul,
 	'/': operator.truediv,
     '^': operator.pow,
+	'%': operator.mod
 }
 def calculate(arg):
 	stack = list()
